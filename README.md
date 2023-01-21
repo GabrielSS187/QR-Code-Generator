@@ -1,15 +1,9 @@
 # QR-Code-Generator
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/GabrielSS187/QR-Code-Generator/blob/main/LICENSE) 
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/86306877/213841245-ea9c428f-8e7b-4a8e-95d8-8400bc6f10b2.png" alt="tema-claro" />
-</div>
+![claro](https://user-images.githubusercontent.com/86306877/213887286-e779faf1-2b75-493e-ad81-a4f9f0854677.png)
 
 # Tema escuro
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/86306877/213841319-c965667a-198a-4e03-b88b-668d5c3508bf.png" alt="tema-escuro" />
-</div>
+![escuro](https://user-images.githubusercontent.com/86306877/213887301-41e2833a-d1c6-4764-88d7-e4cfdc531dbb.png)
 
 # Sobre o projeto
 
