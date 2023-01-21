@@ -23,7 +23,7 @@ Com poucos cliques e segundos seu ( QR Code ) é gerado.
 ## Layout Desktop. Com demostração
 https://user-images.githubusercontent.com/86306877/213840778-a114b66a-ee4f-4e9d-912d-2ee498b15267.mp4
 
-## Layout Mobile e Tablet. Com demostração
+## Layout Mobile e Tablet
 https://user-images.githubusercontent.com/86306877/213840785-1b5731a9-3ae8-498a-91fc-6da2bab67149.mp4
 
 ## Competências
