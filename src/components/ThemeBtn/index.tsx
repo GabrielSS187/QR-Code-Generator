@@ -19,20 +19,19 @@ export function ThemeBtn () {
 
   return (
     <Container>
-      <h3 className={theme ? "sr-only" : ""}>light</h3>
+      <h3 className={theme ? "sr-only" : ""}>claro</h3>
 
       <ToggleCheckbox
         id="toggle"
         type="checkbox"
-        className="toggle-checkbox"
         onClick={() => setTheme(!theme)}
       />
 
-      <ToggleLabel htmlFor="toggle" className="toggle-label">
-        <ToggleLabelBg className="toggle-label-bg" />
+      <ToggleLabel htmlFor="toggle">
+        <ToggleLabelBg />
       </ToggleLabel>
 
-      <h3 className={!theme ? "sr-only" : ""}>dark</h3>
+      <h3 className={!theme ? "sr-only" : ""}>escuro</h3>
     </Container>
   );
 };

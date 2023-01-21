@@ -11,14 +11,14 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   :root {
-    /**  Sun  **/
+    /**  Sol  **/
     --sky-bg: #96dcee;
     --sun-bg: #fffaa8;
-    /**  Moon  **/
+    /**  Lua  **/
     --sky-night-bg: #6b7abb;
     --moon-dots: #e8e8ea;
 
-    /**  Elements  **/
+    /**  Elementos  **/
     --white: hsl(0, 0%, 100%);
     --bg: hsl(212, 45%, 89%);
     --blue: hsl(220, 15%, 55%);
@@ -71,6 +71,40 @@ export const GlobalStyles = createGlobalStyle`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
+  }
+
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  h1, h2, a {
+    color: var(--dark-blue);
+  }
+
+  input, button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: .8rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow);
+    transition: var(--cubic-bezier);
+  }
+
+  .error-msg {
+    color: var(--red);
+    font-weight: 700;
+    padding-left: 1rem;
+  }
+  .success-msg {
+    color: #008000;
+    font-weight: 700;
+    padding-top: 1.5rem;
+    text-align: center;
+  }
+  .sketch-picker {
+    position: absolute !important;
+    z-index: 9;
   }
 
   @media (max-width: 50em) {
