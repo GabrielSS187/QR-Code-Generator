@@ -41,6 +41,9 @@ https://user-images.githubusercontent.com/86306877/213840785-1b5731a9-3ae8-498a-
 - qrcode.react
 - react-color
 
+# Container
+- Docker
+
 ## Implantação em produção
 
 - Front end web: Vercel
