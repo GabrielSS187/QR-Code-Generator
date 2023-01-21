@@ -67,7 +67,7 @@ npm install
 npm run dev
 ```
 
-### Após esse procedimento o projeto devera esta rodando na porta:  http://localhost:5173/
+### Após esse procedimento o projeto deverá esta rodando no endereço:  http://localhost:5173/
 
 # Autor
 
