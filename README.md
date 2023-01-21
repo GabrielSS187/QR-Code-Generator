@@ -54,13 +54,34 @@ https://user-images.githubusercontent.com/86306877/213840785-1b5731a9-3ae8-498a-
 # Como executar o projeto
 
 ## Front end web
+
+### Container com Docker
+Pré-requisitos: Docker instalado na sua máquina
+
+```bash
+# clonar repositório
+git clone https://github.com/GabrielSS187/QR-Code-Generator.git
+
+# entrar na pasta do projeto
+cd QR-Code-Generator
+
+# criar imagem do projeto
+docker build -t qr-code-generator .
+
+# rodar a imagem do projeto
+docker run -p 5173:5173 qr-code-generator
+```
+
+### Após esse procedimento o projeto deverá esta rodando no endereço:  http://localhost:5173/
+
+### Máquina local
 Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
 git clone https://github.com/GabrielSS187/QR-Code-Generator.git
 
-# entrar na pasta do projeto front end web
+# entrar na pasta do projeto
 cd QR-Code-Generator
 
 # instalar dependências
